@@ -143,10 +143,14 @@ header{
     }
 }
 
-@media (min-width: 900px){
-    #cards{
-        max-width: 670px;
-        flex-direction: row;
-        /* flex-wrap: wrap; */
+@media (min-width: 700px) {
+    #cards {
+      max-width: 670px;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
-}
+
+    header{
+        text-align: center;
+    }
+  }
